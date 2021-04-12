@@ -7,3 +7,9 @@ pip install bokeh==0.13.0
 or of you use pip3 then do:
 
 pip3 install bokeh==0.13.0
+
+# Bokeh few interfaces
+rom bokeh.plotting import figure 
+- add points,lines,labels,legends,everything to the figure objects
+from bokeh.io import output_file,show
+
