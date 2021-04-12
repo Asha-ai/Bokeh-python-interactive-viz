@@ -1,3 +1,4 @@
+# code
 from bokeh.plotting import figure
 from bokeh.io import output_file,show
 x = [1,2,3,4,5]
@@ -9,4 +10,28 @@ output_file("Line.html")
 f = figure()
 #create line plot
 f.line(x,y)
+#write the plot in figure object
+show(f)
+
+# dir(f)
+
+# Read data from csv plat graph with dataframe
+#download data from below link
+http://pythonhow.com/data/bachelors.csv
+
+# code
+from bokeh.plotting import figure
+from bokeh.io import output_file,show
+import pandas as pd
+#prepare some data
+df = pd.read_csv("http://pythonhow.com/data/bachelors.csv")
+x = df["Year"]
+y = df["Engineering"]
+#prepare output file
+output_file("line_from_bachelors.html")
+# create figure object
+f = figure()
+#create line plot
+f.line(x,y)
+#write the plot in the figure object
 show(f)
