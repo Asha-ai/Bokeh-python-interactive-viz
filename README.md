@@ -13,3 +13,9 @@ rom bokeh.plotting import figure
 - add points,lines,labels,legends,everything to the figure objects
 from bokeh.io import output_file,show
 
+# Reference
+https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb
+
+https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb
+
+
